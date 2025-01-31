@@ -596,12 +596,12 @@ class _SuggestionsListState<T> extends State<SuggestionsList<T>>
 
   ScrollbarThemeData? getScrollbarTheme() {
     return const ScrollbarThemeData().copyWith(
-      thickness: WidgetStatePropertyAll(
+      thickness: MaterialStatePropertyAll(
           widget.decoration?.scrollBarDecoration?.thickness),
-      thumbColor: WidgetStatePropertyAll(
+      thumbColor: MaterialStatePropertyAll(
           widget.decoration?.scrollBarDecoration?.thumbColor),
       radius: widget.decoration?.scrollBarDecoration?.radius,
-      thumbVisibility: WidgetStatePropertyAll(
+      thumbVisibility: MaterialStatePropertyAll(
           widget.decoration?.scrollBarDecoration?.thumbVisibility),
       crossAxisMargin: widget.decoration?.scrollBarDecoration?.crossAxisMargin,
       mainAxisMargin: widget.decoration?.scrollBarDecoration?.mainAxisMargin,
